@@ -84,6 +84,7 @@ public class PrincipalForm extends javax.swing.JFrame {
 
     private void CalculatorActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_CalculatorActionPerformed
         CalculatorForm form =new CalculatorForm();
+        escritorio.add(form);
         form.setVisible(true);
         
     }//GEN-LAST:event_CalculatorActionPerformed
